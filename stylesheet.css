@@ -1,17 +1,25 @@
 /* style.css */
 .menu-bar-container {
-    background-color: rgb(192, 192, 192);
-    padding: 12px;
-    border: 2px rgb(192, 192, 192);
-    border-radius: 4px;
     display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 48px;
+    margin: 16px 16px;
+}
+
+.menu-company-logo {
+    width: 128px;
+    float: 1;
+    height: auto;
 }
 
 .menu-bar-item {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 14px;
+    padding: 24px;
     flex: 1;
     color: black;
+    margin-left: 128px;
 }
 
 .title-text {
@@ -19,7 +27,7 @@
     font-size: 128px;
     font-weight: 400;
     position: absolute;
-    top: 40%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: black;
@@ -27,8 +35,24 @@
 
 .hero-image-container {
     display: flex;
-    position: relative;
     align-items: center;
     justify-content: center;
-    background-color: lightgrey;
+    background-color: rgb(234, 234, 234);
+}
+
+
+.body-text-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.body-text {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    color: black;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    margin: 16px 16px;
 }
